@@ -42,6 +42,9 @@ services:
         value: fr
       - key: N8N_ENCRYPTION_KEY
         generateValue: true
+      - key: WEBHOOK_URL
+        value: https://n8n-<ton-service>.onrender.com/  # Remplace <ton-service> par le nom réel
+
 
 databases:
   - name: n8nDB
